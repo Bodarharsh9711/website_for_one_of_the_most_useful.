@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    char str[5] [20]= {"Manali","Harmi","Ashwini","Tanvi","Darshana"};
+    int i;
+
+    printf("Array elements:\n");
+    for (i = 0; i < 5; i++) {
+        printf("%s ", str[i]);
+    }
+
+    
+    return 0;
+}
